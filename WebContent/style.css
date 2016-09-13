@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+}
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 100%;
+    border: 1px solid powderblue;
+    padding: 30px;
+    text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a {
+	text-align: center;
+}
+
+p.error {
+    color: red;
+}
+
+#p01 {
+    color: blue;
+}
